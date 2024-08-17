@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(4, 91, 91);
+    color: white;
+    padding: 30px;
+}
+
+li,h1,ul{
+    display: inline;
+}
+
+.header{
+ul{
+    margin-left: 60%;
+}
+}
+
+.click{
+     color: rgb(254, 251, 251);
+     text-decoration: none;
+}
+
+.click:hover{
+    color: rgb(7, 7, 7);
+}
+
+h1{
+    font-size: 30px;
+}
+
+
+.a, .b, .c, .d{
+    margin: 500px;
+    color: white;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 20px;
+    background-color: rgb(4, 91, 91);
+    border-radius: 30px;
+}
+
+.image-row{
+    padding: 20px;
+}
+
+.img-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.img-container{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.img-container img{
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    margin-left: 10px;
+    max-width: 100%;
+}
+
+.description{
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.description p{
+    color:#474747ca
+}
+
+.contacts{
+    background-color: rgb(4, 91, 91);
+    color: white;
+    padding: 5px;
+    line-height: 0.7;
+}
+
+.contacts h2{
+    font-size: 30px;
+}
+
+.contacts h3{
+    font-size: 20px;
+}
+
+.contacts p{
+    font-size: 10px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 2rem);
+    }
+}
+
+@media (max-width: 480px){
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
