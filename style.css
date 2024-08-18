@@ -26,7 +26,7 @@ ul{
 }
 
 .click:hover{
-    color: rgb(7, 7, 7);
+    color: #333333;
 }
 
 h1{
@@ -42,8 +42,10 @@ h1{
     font-size: 40px;
     font-weight: bolder;
     padding: 20px;
-    background-color: rgb(4, 91, 91);
-    border-radius: 30px;
+    background-color: rgba(4, 91, 91, 0.862);
+    border-style: groove;
+    border-color: rgb(5, 5, 5);
+    box-sizing: border-box;
 }
 
 .image-row{
@@ -71,12 +73,20 @@ h1{
 
 .description{
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 
 .description p{
-    color:#474747ca
+    color:#474747ca;
+    font-size: 5px;
+}
+
+button{
+    background-color: rgb(9, 9, 184);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .contacts{
@@ -84,6 +94,7 @@ h1{
     color: white;
     padding: 5px;
     line-height: 0.7;
+    margin-top: 30px;
 }
 
 .contacts h2{
